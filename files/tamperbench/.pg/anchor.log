@@ -1,0 +1,12 @@
+2026-08-19 13:54:37.954 IST [26271] LOG:  starting PostgreSQL 18.4 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 16.1.1 20260728, 64-bit
+2026-08-19 13:54:37.954 IST [26271] LOG:  listening on IPv4 address "127.0.0.1", port 5434
+2026-08-19 13:54:37.956 IST [26271] LOG:  listening on Unix socket "/home/sri/Downloads/JAVA - IEEE/files/tamperbench/.pg/sock/.s.PGSQL.5434"
+2026-08-19 13:54:37.962 IST [26277] LOG:  database system was shut down at 2026-08-19 13:54:37 IST
+2026-08-19 13:54:37.965 IST [26271] LOG:  database system is ready to accept connections
+2026-08-19 13:54:48.274 IST [26271] LOG:  received fast shutdown request
+2026-08-19 13:54:48.275 IST [26271] LOG:  aborting any active transactions
+2026-08-19 13:54:48.277 IST [26271] LOG:  background worker "logical replication launcher" (PID 26280) exited with exit code 1
+2026-08-19 13:54:48.278 IST [26275] LOG:  shutting down
+2026-08-19 13:54:48.278 IST [26275] LOG:  checkpoint starting: shutdown immediate
+2026-08-19 13:54:48.449 IST [26275] LOG:  checkpoint complete: wrote 962 buffers (5.9%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.039 s, sync=0.117 s, total=0.171 s; sync files=650, longest=0.001 s, average=0.001 s; distance=7215 kB, estimate=7215 kB; lsn=0/1E70098, redo lsn=0/1E70098
+2026-08-19 13:54:48.464 IST [26271] LOG:  database system is shut down

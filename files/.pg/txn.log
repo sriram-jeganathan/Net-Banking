@@ -1,0 +1,2 @@
+postgres: invalid argument: "-"
+Try "postgres --help" for more information.

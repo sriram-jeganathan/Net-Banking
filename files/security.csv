@@ -1,0 +1,17 @@
+mechanism,attack,reps,detections,detection_rate,attacks_succeeded,attack_success_rate
+BASELINE,rowModify,5,0,0.00,5,1.00
+BASELINE,deleteRow,5,0,0.00,5,1.00
+BASELINE,unauthorizedInsert,5,0,0.00,5,1.00
+HASH_A,rowModify,5,5,1.00,0,0.00
+HASH_A,deleteRow,5,5,1.00,0,0.00
+HASH_A,privilegedRewrite,5,0,0.00,5,1.00
+HASH_A,unauthorizedInsert,5,0,0.00,5,1.00
+HASH_B,rowModify,5,5,1.00,0,0.00
+HASH_B,deleteRow,5,5,1.00,0,0.00
+HASH_B,privilegedRewrite,5,5,1.00,0,0.00
+HASH_B,unauthorizedInsert,5,0,0.00,5,1.00
+TRIGGERS,rowModify,5,5,1.00,0,0.00
+TRIGGERS,deleteRow,5,5,1.00,0,0.00
+TRIGGERS,auditDelete,5,0,0.00,5,1.00
+TRIGGERS,disableTrigger,5,0,0.00,5,1.00
+TRIGGERS,unauthorizedInsert,5,0,0.00,5,1.00

@@ -1,0 +1,1 @@
+/usr/bin/postgres "-D" "/home/sri/Downloads/JAVA - IEEE/files/tamperbench/.pg/anchor" "-p" "5434" "-k" "/home/sri/Downloads/JAVA - IEEE/files/tamperbench/.pg/sock" "-c" "listen_addresses=127.0.0.1"
